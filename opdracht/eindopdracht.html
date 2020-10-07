@@ -4,7 +4,16 @@
      <title>begin portfolio</title>
  </head>
  <body>
-    <h1>mijn begin van mijn portfolio</h1> 
+    
+    <h1 id="myHeader">welkom bij mijn portfolio</h1>
+    <button onclick="displayResult()">verander tekst</button>
+
+    <script>
+    function displayResult() {
+        document.getElementById("myheader").innerHTML="hier onder mijn portfolio";
+    }
+    </script>
+    
     <div class="overmijzelf">
     <p>Naam:Pascal Konijnenburg</p>
     <p>Leeftijd: 16 jaar</p>
